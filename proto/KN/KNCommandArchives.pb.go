@@ -58,14 +58,14 @@ package KN
 
 import proto "github.com/golang/protobuf/proto"
 import math "math"
-import "github.com/dunhamsteve/iwork/proto/TSP"
-import "github.com/dunhamsteve/iwork/proto/TSK"
-import "github.com/dunhamsteve/iwork/proto/TSS"
-import "github.com/dunhamsteve/iwork/proto/TSD"
+import "github.com/adrianwojdat/iwork/proto/TSP"
+import "github.com/adrianwojdat/iwork/proto/TSK"
+import "github.com/adrianwojdat/iwork/proto/TSS"
+import "github.com/adrianwojdat/iwork/proto/TSD"
 
 // discarding unused import TSWP "TSWPArchives.pb"
 // discarding unused import TSA "TSAArchives.pb"
-import "github.com/dunhamsteve/iwork/proto/KN1"
+import "github.com/adrianwojdat/iwork/proto/KN1"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

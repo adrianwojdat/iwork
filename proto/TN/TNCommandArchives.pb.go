@@ -39,19 +39,19 @@ package TN
 
 import proto "github.com/golang/protobuf/proto"
 import math "math"
-import "github.com/dunhamsteve/iwork/proto/TSP"
-import "github.com/dunhamsteve/iwork/proto/TSK"
+import "github.com/adrianwojdat/iwork/proto/TSP"
+import "github.com/adrianwojdat/iwork/proto/TSK"
 
 // discarding unused import TSCH2 "TSCHArchives.pb"
-import "github.com/dunhamsteve/iwork/proto/TSCH3"
-import "github.com/dunhamsteve/iwork/proto/TSCE"
+import "github.com/adrianwojdat/iwork/proto/TSCH3"
+import "github.com/adrianwojdat/iwork/proto/TSCE"
 
 // discarding unused import TSS "TSSArchives.pb"
 // discarding unused import TSD "TSDArchives.pb"
 // discarding unused import TSWP "TSWPArchives.pb"
 // discarding unused import TSA "TSAArchives.pb"
 // discarding unused import TST1 "TSTArchives.pb"
-import "github.com/dunhamsteve/iwork/proto/TN1"
+import "github.com/adrianwojdat/iwork/proto/TN1"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

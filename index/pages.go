@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dunhamsteve/iwork/proto/TP"
+	"github.com/adrianwojdat/iwork/proto/TP"
 
 	"github.com/golang/protobuf/proto"
 )

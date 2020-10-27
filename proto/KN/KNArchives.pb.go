@@ -49,14 +49,14 @@ package KN
 
 import proto "github.com/golang/protobuf/proto"
 import math "math"
-import "github.com/dunhamsteve/iwork/proto/TSP"
+import "github.com/adrianwojdat/iwork/proto/TSP"
 
 // discarding unused import TSK "TSKArchives.pb"
-import "github.com/dunhamsteve/iwork/proto/TSS"
-import "github.com/dunhamsteve/iwork/proto/TSD"
-import "github.com/dunhamsteve/iwork/proto/TSWP"
-import "github.com/dunhamsteve/iwork/proto/TSA"
-import "github.com/dunhamsteve/iwork/proto/TSCH2"
+import "github.com/adrianwojdat/iwork/proto/TSS"
+import "github.com/adrianwojdat/iwork/proto/TSD"
+import "github.com/adrianwojdat/iwork/proto/TSWP"
+import "github.com/adrianwojdat/iwork/proto/TSA"
+import "github.com/adrianwojdat/iwork/proto/TSCH2"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

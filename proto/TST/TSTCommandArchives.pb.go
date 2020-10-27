@@ -110,12 +110,12 @@ package TST
 
 import proto "github.com/golang/protobuf/proto"
 import math "math"
-import "github.com/dunhamsteve/iwork/proto/TSP"
-import "github.com/dunhamsteve/iwork/proto/TSD"
-import "github.com/dunhamsteve/iwork/proto/TSK"
-import "github.com/dunhamsteve/iwork/proto/TSS"
-import "github.com/dunhamsteve/iwork/proto/TSCE"
-import "github.com/dunhamsteve/iwork/proto/TSWP"
+import "github.com/adrianwojdat/iwork/proto/TSP"
+import "github.com/adrianwojdat/iwork/proto/TSD"
+import "github.com/adrianwojdat/iwork/proto/TSK"
+import "github.com/adrianwojdat/iwork/proto/TSS"
+import "github.com/adrianwojdat/iwork/proto/TSCE"
+import "github.com/adrianwojdat/iwork/proto/TSWP"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

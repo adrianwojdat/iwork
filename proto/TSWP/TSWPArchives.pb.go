@@ -72,9 +72,9 @@ package TSWP
 
 import proto "github.com/golang/protobuf/proto"
 import math "math"
-import "github.com/dunhamsteve/iwork/proto/TSP"
-import "github.com/dunhamsteve/iwork/proto/TSS"
-import "github.com/dunhamsteve/iwork/proto/TSD"
+import "github.com/adrianwojdat/iwork/proto/TSP"
+import "github.com/adrianwojdat/iwork/proto/TSS"
+import "github.com/adrianwojdat/iwork/proto/TSD"
 
 // discarding unused import TSK "TSKArchives.pb"
 

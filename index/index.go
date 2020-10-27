@@ -13,7 +13,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/dunhamsteve/iwork/proto/TSP"
+	"github.com/adrianwojdat/iwork/proto/TSP"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/snappy"

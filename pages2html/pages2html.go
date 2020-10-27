@@ -9,12 +9,12 @@ import (
 	"log"
 	"os"
 
-	"github.com/dunhamsteve/iwork/index"
-	"github.com/dunhamsteve/iwork/proto/TP"
-	"github.com/dunhamsteve/iwork/proto/TSD"
-	"github.com/dunhamsteve/iwork/proto/TSP"
-	"github.com/dunhamsteve/iwork/proto/TST"
-	"github.com/dunhamsteve/iwork/proto/TSWP"
+	"github.com/adrianwojdat/iwork/index"
+	"github.com/adrianwojdat/iwork/proto/TP"
+	"github.com/adrianwojdat/iwork/proto/TSD"
+	"github.com/adrianwojdat/iwork/proto/TSP"
+	"github.com/adrianwojdat/iwork/proto/TST"
+	"github.com/adrianwojdat/iwork/proto/TSWP"
 
 	"golang.org/x/net/html"
 )
@@ -355,12 +355,12 @@ Usage:
 
 	fda := ctx.ix.Deref(da.FloatingDrawables).(*TP.FloatingDrawablesArchive)
 	if len(fda.PageGroups) != 0 {
-		fmt.Println(`WARNING - 
+		fmt.Println(`WARNING -
             This document has floating drawables (e.g. floating images/tables/text blocks) which we don't handle in HTML
             conversion.
-            
+
             Figuring out where to place them in the document would probably be tricky.
-            
+
 `)
 	}
 

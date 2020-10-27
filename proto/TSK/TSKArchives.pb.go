@@ -35,7 +35,7 @@ package TSK
 
 import proto "github.com/golang/protobuf/proto"
 import math "math"
-import "github.com/dunhamsteve/iwork/proto/TSP"
+import "github.com/adrianwojdat/iwork/proto/TSP"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal
